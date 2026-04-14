@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "aretta": {
+      "type": "stdio",
+      "command": "${CODEX_PLUGIN_ROOT}/bin/start-server.sh",
+      "env": {}
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "aretta",
+  "description": "Formal verification and specification mining with Aretta.",
+  "version": "0.2.0",
+  "author": {
+    "name": "Aretta",
+    "url": "https://aretta.ai"
+  },
+  "repository": "https://github.com/aretta-ai/plugins-codex",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}
