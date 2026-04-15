@@ -1,12 +1,33 @@
 {
   "name": "aretta",
-  "description": "Formal verification and specification mining with Aretta.",
   "version": "0.2.0",
+  "description": "Formal verification and specification mining with Aretta.",
   "author": {
     "name": "Aretta",
     "url": "https://aretta.ai"
   },
+  "homepage": "https://aretta.ai",
   "repository": "https://github.com/aretta-ai/plugins-codex",
+  "keywords": ["formal-verification", "specifications", "proofs"],
   "skills": "./skills/",
-  "mcpServers": "./.mcp.json"
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Aretta",
+    "shortDescription": "Formal verification and specification mining",
+    "longDescription": "Use Aretta to mine specifications, run proofs, inspect proof status, and share verification results.",
+    "developerName": "Aretta",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read", "Write"],
+    "websiteURL": "https://aretta.ai",
+    "privacyPolicyURL": "https://aretta.ai",
+    "termsOfServiceURL": "https://aretta.ai",
+    "defaultPrompt": [
+      "Prove a safety property in this codebase",
+      "Mine formal specifications from this project"
+    ],
+    "brandColor": "#0F766E",
+    "composerIcon": "./assets/app-icon.png",
+    "logo": "./assets/app-icon.png",
+    "screenshots": []
+  }
 }
